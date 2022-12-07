@@ -22,8 +22,8 @@ def MergeSortImpl(A):
     for R in range(R, len(right)):
         B.append(right[R])
     return B
-     
+print("Введите элементы массива")
 a = []
 a = input().split()
-print("Введите элементы массива")
+print("Отсортированный массив")
 print(MergeSortImpl(a))
